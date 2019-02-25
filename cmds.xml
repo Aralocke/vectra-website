@@ -1,0 +1,1530 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<vectra>
+<commandlist>
+
+<command id="non-runescape">
+<command>
+<![CDATA[ !setrsc <on|off>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Sets rsc topic checker on/off for clan discussion (clan fights)
+  ]]> 
+  </desc>
+<response>
+<![CDATA[  <Vectra> ** (ZYBEZ-COMMUNITY): New RSC Topic! Title: Trwf Vs Rdc Description: http://forums.zybez.net/index.php?showtopic=1319436 Link: http://forums.zybez.net/index.php?showtopic=1319436 Posted: Today 04:35 PM
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !gecompare <item1, item2>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Compares the prices of 2 different items
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (GECOMPARE): Comparing Rune platelegs with Rune plateskirt | Cheapest: Rune plateskirt | Price difference: Market 3.5k | Maximum: 3.7k | Minimum: 1.3k
+  ]]> 
+  </response>
+  </command>
+
+
+<command id="runescape">
+<command>
+<![CDATA[ !@stats [-repl] <rsn>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Shows RuneScape stats for a specified username. -e for exp, -r for rank, -p for percent to 99 and -l for level
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (TERROR_NISSE): Overall 1,944 | Attack 99 | Defence 99 | Strength 99 | Hitpoints 99 | Ranged 83 | Prayer 99 | Magic 93 | Cooking 99 | Woodcutting 83 | Fletching 99 | Fishing 99 | Firemaking 76 | Crafting 80 | Smithing 70 | Mining 77 | Herblore 79 | Agility 74 | Thieving 70 | Slayer 78 | Farming 55 | Runecraft 59 | Hunter 56 <Vectra> ** (TERROR_NISSE): Construction 69 | Summoning 50
+  ]]> 
+  </response>
+  </command>
+  
+  
+  <command id="runescape">
+<command>
+<![CDATA[ !@<skill> [#goal/~exp] <rsn> [@parameter parameter parameter]
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Shows single skill information for a specified username. Can also add goal/exp and multiple parameters.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (TERROR_NISSE): (Herblore) lvl: 79 | exp: 1,859,452 (14.27% of 99) | rank: 11,202 | EXP to level 80: 126,616 (32.3% to 80) <br /> -Vectra- [For 80 Herblore]: Attack 5,065 Super Stat Restore 889 Anti Firebreath 804 Extra Strong Weapon Poison 767 Saradomin Brew 703 Super Strong Weapon Poison 666 Attack 5,065
+  ]]> 
+  </response>
+  </command>
+   <command id="runescape">
+<command>
+<![CDATA[ !@ge [-es] <item>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Give you grand exchange prices and other statistics.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra>- ** (GE): [M] Abyssal whip: 1.5m (Change: +69.3k gp) <br /> <Vectra> ** (GE): Item description: A weapon from the Abyss. | Minimum price: 1.4m | Maximum price: 41.5m | 7-days price change: +28.5% | 30-days price change: +16.4%
+  ]]> 
+  </response>
+  </command>
+  <command id="runescape">
+<command>
+<![CDATA[ !setge [on|off]
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ if you set this command on, Vectra will message your channel when GE updates.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra>- ** (SETTINGS): I will now send a message to this channel when there is an update in the Grand Exchange.
+  ]]> 
+  </response>
+	</command> 
+	<command id="runescape">
+<command>
+<![CDATA[ !@geupdate
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Tells you when the last update was detected in the Grand Exchange
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ Vectra ** (GE-UPDATE): Grand Exchange prices are not updated yet, the last update was 8hrs 33mins 13secs ago.
+  ]]> 
+  </response>
+  </command>
+  
+  
+  <command id="runescape">
+<command>
+<![CDATA[ !@soul <rsn> <skill> [#goal]
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ This will tell you how many points you still need till your next level, or till your #goal lvl
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (SOUL WARS): (Jeffreims) You need 51 points (374,850 Exp) for 93 Defence with 7,350 Exp each point.
+  ]]> 
+  </response>
+  </command>
+  
+  
+  <command id="runescape">
+<command>
+<![CDATA[ !@special [weapon]
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Shows the specified weapons special attack.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (SPECIAL): Weapon name: Dragon axe (hatchet) | Special attack effect: Clobber - This attack dazes your opponent, lowering their defence and magic stats. | Power cost: 100%
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@istat [item] [#number]
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Shows item bonus for the item you search for.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (ISTAT): [1/1] Abyssal whip | Attack bonuses: Stab: +0 Slash: +82 Crush: +0 Magic: +0 Range: +0 | Defence bonuses: Stab +0 Slash: +0 Crush: +0 Magic +0 Range: +0 Summon: +0 | Other bonuses: Strength +82 Prayer: +0 (Zybez.net)
+  ]]> 
+  </response>
+  </command>
+  <command id="runescape">
+<command>
+<![CDATA[ !@noburn [Fish]
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Shows the levels you need to have to cook fish without burning them.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (NOBURN): Normal Gauntlets | Tuna: [N:65] [G:N/A] | Lobster: [N:74] [G:68] | Swordfish: [N:86] [G:81] Monkfish: [N:90] [G:89] | Shark: [N:100] [G:94]
+  ]]> 
+  </response>
+  </command>
+<command id="non-runescape">
+<command>
+<![CDATA[ !@calc
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Calculates an equation.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (CALC): 10*10 = 100
+  ]]> 
+  </response>
+  </command>
+  
+  <command id="bot-related">
+<command>
+<![CDATA[ !set <command> <on|off> 
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Disable/enable commands.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (SETTINGS): The "ge" command is now disabled in #vectra.
+  ]]> 
+  </response>
+  </command>
+  
+<command id="bot-related">
+<command>
+<![CDATA[ !@commands
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Shows links to the webpage and forums.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (COMMANDS): Commands can be located at: http://www.vectra-bot.net and our forums can be found at: http://forum.vectra-bot.net
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@f2p/p2p [-repl] <rsn>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Shows f2p/p2p stats for a specified username. -e for exp, -r for rank, -p for procent to 99 and -l for level
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (TERROR_NISSE): Overall 1,944 | Attack 99 | Defence 99 | Strength 99 | Hitpoints 99 | Ranged 83 | Prayer 99 | Magic 93 | Cooking 99 | Woodcutting 83 | Fishing 99 | Firemaking 76 | Crafting 80 | Smithing 70 | Mining 77 | Runecraft 59
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@cmb [#goal] <rsn>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Shows combat stats for a specified username.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (COMBAT): Terror_nisse is level 132.35 [F2P: 126.225] (Melee) ASDHRPM(SU) 99 99 99 99 83 99 93 50 <br /> <Vectra> ** (COMBAT): For 133: Prayer/Summoning: 5
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@<skill>-plan <rsn> <amount> <monster/item>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Shows a skill plan on amount of items in a skill.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (HERBLORE PLAN): (jeffreims) Original level: 56 (192,041exp) | Exp gain of 1,000 super strength: 125,000exp (125ea) | Final level: 61 (317,041exp)
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@defname <rsn>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Saves your rsn for more easy use of stats commands.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (DEFAULT NAME): Your RSN has been set to Terror_nisse with the host *!*Vectra_01@*.dialup.ice.no.
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@track [skill/top] <rsn> [@time ex: @1wk] 
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Shows tracker info on specified rsn to a specified time. if you only type !track top it will return top of the week tracks.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (TRACKER): [All] EXP gains for slappfisken in the last 1wk: Overall +5,349,960 | Attack(99) +207,796 | Defence(99) +185,787 | Strength(99) +2,469,711 | Hitpoints(99) +1,112,729 | Ranged(99) +222,417 | Prayer(99) +5,496 | Magic(99) +304,235 | Mining(86) +500 | Herblore(80) +15 | Agility(80) +295 <br /> <Vectra> ** (TRACKER): [All] Slayer(97->98) +836,239 | Summoning(37->39) +4,740
+  ]]> 
+  </response>
+  </command>
+<command id="non-runescape">
+<command>
+<![CDATA[ http://www.youtube.com/watch?v=B3ICMSh4A0U
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Shows information about the youtube link.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (YOUTUBE): Title: RuneEmpire getting 99 mage | Duration: 00:06:38 (6mins 38secs) | Views: 51 | Rating: 2.00 (1 ratings)
+  ]]> 
+  </response>
+  </command>
+<command id="non-runescape">
+<command>
+<![CDATA[ !@lyrics [#nr] <song name>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Shows links to the lyrics of your choice.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (LYRICS): 1/10 results for "eminem" | Song: Shady Narcotics (Eminem Intro) | Artist: Eminem | Album: Eminem Presents: The Re-Up <br /> <Vectra> ** (LYRICS): Lyrics: http://lyrics.astraweb.com/display/313/eminem.<br /> .eminem_presents_the_reup..shady_narcotics_eminem_intro.html
+  ]]> 
+  </response>
+  </command>
+  <command id="runescape">
+<command>
+<![CDATA[ !@price [Q] item, [Q] item, [Q] item, [Q] item, [Q] item
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Price information on about 5 items at ones! [Q] = Quantity(how many items)
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (PRICE): Results: 103 | [M] Dragon full helm 42,119,193gp - 46,552,793gp | [M] Draconic visage 24,560,000gp - 27,188,000gp | [M] Dragonfire shield 20,427,000gp - 22,650,000gp | [M] Dragon set 9,280,000gp - 10,280,000gp (zybez.net)
+  ]]> 
+  </response>
+  </command>
+<command id="non-runescape">
+<command>
+<![CDATA[ !@ascii <string>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Shows ascii string for desierd sentence/word.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (ASCII): Ascii code for the string "vectra" | $+($chr(118),$chr(101),$chr(99),$chr(116),$chr(114),$chr(97))
+  ]]> 
+  </response>
+  </command>
+<command id="bot-related">
+<command>
+<![CDATA[ !@part <botname/botid>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ To part Vectra from your channel.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ * Vectra[03] (Vectra@Eats.Your.Sharks) has left #joacim (!Part requested by iTerror)
+  ]]> 
+  </response>
+  </command>
+<command id="non-runescape">
+<command>
+<![CDATA[ !@whatpulse [-d <username/id>] <username/id>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Shows whatpulse stats for desierd username/id.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (WHATPULSE): User: terror_nisse | Country: Norway | Registered: 2008-01-20 (2 months ago) | Team: SwiftIRC | Team rank: 132nd <br /> <Vectra> ** (WHATPULSE): Rank: 50,634 | Keys: 879,844 | Clicks: 196,771 | Miles: 19.99 | a/Clicks: 0.04 | a/Keys: 0.17 | Last pulse: 2008-03-15 12:24:07
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@item <#ID/item>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Item lookup on zybez.net (It returns ID's if results are more then one.)
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (ITEM): [1/1] [M] Abyssal whip | +Trades +Equips -Stacks | Weight: 0kg | Alch: 48,000gp-72,000gp | Examine: A weapon from the abyss. <br /> <Vectra> ** (ITEM): To Obtain: Players; Killing Abyssal Demons (level 124) (zybez.net)
+  ]]> 
+  </response>
+  </command>
+<command id="non-runescape">
+<command>
+<![CDATA[ !@youtube <search>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Searches youtube.com for matching results!
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (YOUTUBE): Title: Runescape - Defil3d - Bh Part 5 | View count: 9,912 | Published: 1 day ago | Duration: 04:42 (4mins 42secs) | Link: http://youtube.com/watch?v=2YYIi7gABh0 (Youtube.com)
+  ]]> 
+  </response>
+  </command>
+<command id="general">
+<command>
+<![CDATA[ !@rank <rank> <skill>
+  ]]> 
+  </command>
+
+<desc>
+<![CDATA[ Shows the person ranked in a specified skill.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (SUMMONING): Rank: 1 | Name: Weyoun 1 | Exp: 17,000,226 | Level: 99 [101]
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@top10 <skill>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Shows top10 ranked in a specified skill. No skill returns overall.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (TOP10): [Herblore] #1: Halw_Gnun (200,000,000) #2: Ma_Cypress (145,269,388) #3: Stw_Kzoo (134,814,524) #4: Zezima (51,393,314) #5: Ajturtle (38,504,113) #6: Pow012000 (36,854,140) #7: Weenage (33,276,321) #8: Redsnake146 (32,332,316) #9: Uwillbeowned (30,277,266) #10: Egertaia (30,228,115)
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@highlow [#NR] <rsn>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Shows high/low stats for a specified username. !high/!low can also be used.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (TERROR_NISSE): [High] Skill: Attack | Level: 99 [101] | Rank: 9,146 | Exp: 16,007,749 (11.88% of total) <br /> <Vectra> ** (TERROR_NISSE): [Low] Skill: Summoning | Level: 50 | Rank: 25,145 | Exp: 102,556 (0.08% of total)
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@compare <skill> [rsn1<&>] [rsn2<&>]
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Compares two users in a skill.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (COMPARE): Terror Nisse(99) is 9 Strength levels higher than Jeffreims(90). Terror Nisse has 7,899,794 more Strength exp than Jeffreims.
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@cmb% <rsn>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Shows combat percent for a specified rsn.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (CMB%): Terror_nisse has 80,502,232 combat exp and 54,281,275 skill exp, making a combat percent of 59.73%.
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@skill% <rsn>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Shows skill percent for a specified rsn.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (SKILL%): Terror_nisse has 115,166,384 f2p exp 19,617,123 p2p exp and 134,783,507 overall exp making a f2p percent of 85.45% and a p2p percent of 14.55%.
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@rsnews [#NR]
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Shows runescape news.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (RSNEWS): This Easter may be the busiest yet for the Easter Bunny. His sugary stockpile has been raided by critters, so, to keep up with demand, he's found an unusual way of making chocolate for his Easter treats: the gooey gaze of the chocatrice! <br /> <Vectra> ** (RSNEWS): Read more at: http://news.runescape.com/newsitem.ws?id=1138
+  ]]> 
+  </response>
+  </command>
+<command id="bot-related">
+<command>
+<![CDATA[ !@autocmb <on/off>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Sets auto combat checker on or off for a channel.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (AUTOCMB): Terror_nisse is level 132.35 [F2P: 126.225] (Melee) ASDHRPM(SU) 99 99 99 99 83 99 93 50
+  ]]> 
+  </response>
+  </command>
+<command id="bot-related">
+<command>
+<![CDATA[ !@autoclan <on/off>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Sets auto clan checker on or off for a channel.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (AUTOCLAN): Terror_nisse is in 2 clans: Norwegian, Norwegian 120s
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@<set|del>pcw <pcw>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Sets or deletes a pest control world from a channel.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (PESTCONTROL): New pestcontrol world has been set! Type !pcw to see it.
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@pcw
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Returns current pcw if there is any set.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ -Vectra[13]- ** (PCW): The Pest Control world for #vectra is 27, set by iTerror, 1min 41secs ago.
+  ]]> 
+  </response>
+  </command>
+<command id="bot-related">
+<command>
+<![CDATA[ !@public <on/off>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Sets public commands on/off for a channel.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (PUBLIC): Public commands is now OFF for #vectra.
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@grats <level> <skill> [<rsn>]
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Gratulates you in a skill.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ * %Vectra (`\..(GRATS)\ :D < Congratulations on level 99 Prayer iTerror!! >- /(GRATS)../`)
+  ]]> 
+  </response>
+  </command>
+<command id="bot-related">
+<command>
+<![CDATA[ !@count
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Shows usercount from a channel.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (COUNT): There are 2 users in #joacim. 2 ops, 0 halfops, 0 voiced and 0 regulars.
+  ]]> 
+  </response>
+  </command>
+<command id="fun">
+<command>
+<![CDATA[ !@lovemeter <name 1> <name 2>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Love somone? check it out with our lovemeter!
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ * @Vectra[13] Starts the lovetest.... <br /> <Vectra> ** (LOVEMETER): Love percent between Terror_nisse and Xotick is 100%.
+  ]]> 
+  </response>
+  </command>
+<command id="bot-related">
+<command>
+<![CDATA[ !@tb <nick> <mins> [<reason>]
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Temp ban a specified nick a amount of minutes.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ No preview. You get kicked XD
+  ]]> 
+  </response>
+  </command>
+<command id="fun">
+<command>
+<![CDATA[ !@cookie <nick>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Give a cookie to a specified nick.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ * @Vectra gives Xotick a cookie, coated with hot chocolate sauce which melts only at a temperature of 80 degrees celsius, filed with yanilla flavoured white chocolate grinded to perfection, cooked under an oven which contained only 12.3% carbon dioxide to form the perfect mixture. Finally a bucket of fine chocolate was poured upon the cookie, making a thin layer of black sirup ooz out from the tip of the cookie. <br /> * @Vectra[13] *mmmmm*
+  ]]> 
+  </response>
+  </command>
+<command id="fun">
+<command>
+<![CDATA[ !@mm <nick>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Give some m&m's to a specified nick.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ * @Vectra gives Xotick some M&M's (m)(m)(m)(m)(m)(m) <br /> <Vectra> They melt in your mouth, not in your hand!
+  ]]> 
+  </response>
+  </command>
+<command id="fun">
+<command>
+<![CDATA[ !@ss <nick>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Give a skittle to a specified nick.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ * @Vectra gives Xotick a skittle
+  ]]> 
+  </response>
+  </command>
+<command id="fun">
+<command>
+<![CDATA[ !@fu <nick>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Kill a nick!
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ * @Vectra fucks Xotick to death with a stick!!!
+  ]]> 
+  </response>
+  </command>
+<command id="fun">
+<command>
+<![CDATA[ !@gaymeter <nick>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Wanna know how gay someone is? test it with the gaymeter command.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ * @Vectra starts the gaytest... <br /> <Vectra> The gaytest reveals Xotick is 11% gay!
+  ]]> 
+  </response>
+  </command>
+<command id="fun">
+<command>
+<![CDATA[ !@noobmeter <nick>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Wanna know how noob someone is? test it with the noobmeter command.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ * @Vectra starts the noobtest... <br /> <Vectra> The noobtest reveals Xotick is 76% noob!
+  ]]> 
+  </response>
+  </command>
+<command id="fun">
+<command>
+<![CDATA[ !@rape <nick>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Rape a user with this command!
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ * @Vectra drags Xotick around the corner,and rapes Xotick to death with a stick!!
+  ]]> 
+  </response>
+  </command>
+<command id="fun">
+<command>
+<![CDATA[ !@8ball <question>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Ask the 8ball a question.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <@iTerror> !8ball Is Terror_nisse sexy? <br /> <Vectra> ** (ITERROR): Yes.
+  ]]> 
+  </response>
+  </command>
+<command id="fun">
+<command>
+<![CDATA[ !@guess<on/off>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Turns "guess a number" on or off.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (GUESS): Type !guess <number> pick a number between 1 - 10.000 <br /> <Vectra> ** (GUESS): Type !guessoff to stop
+  ]]> 
+  </response>
+  </command>
+<command id="fun">
+<command>
+<![CDATA[ !@guess <number>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Guess a number in the "guess the number" game.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (GUESS): That was wrong, Try to guess a bit higher.
+  ]]> 
+  </response>
+  </command>
+<command id="fun">
+<command>
+<![CDATA[ !@lame [<nick>]
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Type a nick to see how lame he/she is. Dont type anything to find channels lamest.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (LAME): Lamest person in #vectra is... <br /> <Vectra> ** (LAME): Jeffreims
+  ]]> 
+  </response>
+  </command>
+<command id="bot-related">
+<command>
+<![CDATA[ !@autovoice <on/off>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Set autovoice on or off in a channel.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (AUTOVOICE): Auto voice for #vectra has been enabled.
+  ]]> 
+  </response>
+  </command>
+<command id="bot-related">
+<command>
+<![CDATA[ !@<set|del>event <event>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Set or delete a event for your channel.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (EVENT): The event for #vectra has been set to: This is a test
+  ]]> 
+  </response>
+  </command>
+<command id="bot-related">
+<command>
+<![CDATA[ !@event
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Shows the event for the current channel.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (EVENT): Current event for #vectra is: This is a test. Set by iTerror on 21/03/2008.
+  ]]> 
+  </response>
+  </command>
+<command id="bot-related">
+<command>
+<![CDATA[ !@site
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Shows the channel site.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (WEBSITE): The channel site for #vectra is: www.vectra-bot.org
+  ]]> 
+  </response>
+  </command>
+<command id="bot-related">
+<command>
+<![CDATA[ !@<del|set>site <site>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ To set a channel website.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (WEBSITE): The website for #vectra has been set to: www.vectra-bot.org
+  ]]> 
+  </response>
+  </command>
+<command id="fun">
+<command>
+<![CDATA[ !@slap <nick>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Slap a nickname in your channel.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ * @Vectra slaps iTerror with a Runite ore
+  ]]> 
+  </response>
+  </command>
+<command id="bot-related">
+<command>
+<![CDATA[ !@mycolor <colorname/code>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Sets a personal color for the bot.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (MYCOLOR): Your personal highlight color for the host: (*!*Vectra_01@*.dialup.ice.no) has been set to: This
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@nextlvl <rsn>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Shows next level for a RSN.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (TERROR_NISSE): Next level up is: Farming with 4,734 exp to go. <br /> <Vectra> [For 4,734 Farming EXP]: Potato 592 Ranarr Weed 175 Curry Tree 118 Papaya Tree 66 Snapdragon 54 Spirit Tree 24 Calquat Tree 37
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@furthest <rsn>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Shows furthest skill away from level for a RSN.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (TERROR_NISSE): Furthest level up is: Crafting with 188,217 exp to go. <br /> <Vectra> [For 188,217 Crafting EXP]: Black Dragonhide Vambraces 2,189 Black Dragonhide Chaps 1,094 Black Dragonhide Body 730 Onyx Necklace 1,568 Onyx Amulet 1,141 Leather Gloves 13,639 Leather Boots 11,547
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@coord <location> <location>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Shows place to the current coords you type.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (COORDINATES): Coords: 00.13 South 13.58 East | Location: Between the two lakes on Karamja, west of the banana plantation and general store
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@anagram <anagram>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Shows information about the specified anagram.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (ANAGRAM): "A Bas" - NPC: Saba | Location: Burthorpe - South of the Troll Camp, North of the Warrior's guild, in his cave. (zybez.net)
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@riddle <riddle>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Shows information about the specified riddle.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (RIDDLE): "46 is my number, My body is burnt orange colour, and crawls with those with eight, 3 mouths I have yet I can not eat. My blinking blue eye" - Answer: The sapphire respawn in the Spider's Nest in level 46 Wilderness. Dig under the sapphire spawn. (zybez.net)
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@challenge <challenge>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Shows information about the specified challenge
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (CHALLENGE): "If x is 15 and y is 3, what is 3x + y?" - Answer: 48 (zybez.net)
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@uri <uri>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Shows information about the specified uri's emotes.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (EMOTES & OUTFIT): "Beckon in Tai Bwo Wannai. Clap before you talk to me. Equip green dragonhide chaps, a ring of duelling and a mithril medium helmet." - Location: Within the fenced area, in Tai Bwo Wannai Village. <br /> <Vectra> ** (EMOTES & OUTFIT): Aquiring items: Go to Peksa's helmet shop for mithril med helm; buy the chaps from Scavvo's Rune store or craft them; buy the ring from Grum's Gold Exchange and enchant it. (zybez.net)
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@speakto <npc>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Shows information about the specified speak to location for NPC.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (SPEAKTO): "Arhein" - Location: Catherby - The Dock in Catherby outside the Bank
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@claninfo <clan>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Shows information about the specified clan.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (CLANINFO): [Dmfl] DMFL Clan (http://DmflClan.frac.dk) | Total members: 67 | [Avg] Cmb: (F2P: 104.08 | P2P: 105.3) Hp: 85.79 Magic: 74.19 Range: 73.75 Skill total: 1,398 | F2P or P2P: F2P based (Homeworld 118) | Cape: Blue | RuneHead link: http://www.runehead.com/clans/ml.php?clan=dmfl
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@alchemy [<amount>] <item>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Alchemy prices for specified item.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (ALCH): [M] Abyssal whip 48,000gp - 72,000gp (zybez.net)
+  ]]> 
+  </response>
+  </command>
+<command id="other">
+<command>
+<![CDATA[ !@1881 <nummer>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Check the norwegian phonebook or search for a person's number.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (1881): Navn: LISE AURE | Addresse: Nordsmola, | Postkode: 6570 | Sted: Smola | Nummer: 48241690 <br /> <Vectra> ** (1881): Kart: www.1881.no/Map/ *large url here*
+  ]]> 
+  </response>
+  </command>
+<command id="non-runescape">
+<command>
+<![CDATA[ !@slogan <string>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Get a funny slogan fro mthe specified text
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (SLOGAN): The word "Terror nisse" returned slogan: The Ultimate Terror Nisse Machine
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@monster <monster> [#number]
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Get information about the ID or monster specified.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (NPC/MONSTER): [1/1] [M] Abyssal demon | Combat: 124 | Hp: 150 | Maxhit: 8 | Race: Demon | Nature: Not Aggressive | Attack Style: Melee | Examine: A denizen of the Abyss! | Where found: Slayer Tower, north of Canifis; Fairy ring (ALR) (zybez.net)
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@rsforum <search>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Search runescape forums!
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (RSFORUMS): Results for "whip" is: Whip change(str attack) | Posted: 21-Mar-2008 17:31:08 | Link: http://forum.runescape.com/forums.ws?24,25,691,56026694 | Category: Suggestions
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@nextcmb <rsn>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Shows the next combat level to raise for a rsn.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (TERROR_NISSE): Closest combat level up is Summoning with 9,389 exp to go. <br /> <Vectra> [For 9,389 Summoning EXP]: High Level Alchemy 2,189 Saradomin Strike 4,066 Claws of_Guthix 4,066 Flames of_Zamorak 4,066 Ice Barrage 2,737 Wind Strike 25,875 Confuse 10,947
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@privacy <on|off>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Sets your defname to private on/off.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (PRIVACY): Defname privacy is now on.
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@spell <spell>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Information about a runescape spell.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (SPELL): Curse | Level: 19 | Runes Needed: 2 Water, 3 Earth, 1 Body | Cost: 71gp - 80gp | Exp: 29 | Max hit: -
+  ]]> 
+  </response>
+  </command>
+<command id="non-runescape">
+<command>
+<![CDATA[ !@google <search>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Search google on Vectra.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (GOOGLE): Top google results for "runescape" was the URL: http://www.runescape.com/
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@exp <exp>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Returns the level for specified exp.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (EXP-LVL): The lvl for 10 exp is 1.
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@level <lvl>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Returns the exp for specified level.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (LVL-EXP): The exp for level 55 is 166,636 exp.
+  ]]> 
+  </response>
+  </command>
+<command id="fun">
+<command>
+<![CDATA[ !@chuck
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Chuck norris joke.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (CHUCK NORRIS): Every year one million people get the privilege of dying from traffic fatalities rather than from the hands and feet of Chuck Norris.
+  ]]> 
+  </response>
+  </command>
+<command id="fun">
+<command>
+<![CDATA[ !@vin
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ This commands views Vin Diesel jokes.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (VIN DIESEL): Every new Coke can design must be pre-approved by Vin Diesel.
+  ]]> 
+  </response>
+  </command>
+<command id="fun">
+<command>
+<![CDATA[ !@yomama
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Yo mama jokes.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (YOMAMA #52): Yo momma so fat that she would have been in ET, but when she rode the bike across the moon, she caused an eclipse
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@rsname <search>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ To check if rsname is available or not.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ -Vectra- ** (RSNAME): The runescape name "Vectra" is taken.
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@kbase <search>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Searches knowledge base on runescape.com
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (KBASE): Top results for "pest control" was Pest Control found at http://www.runescape.com/kbase/viewarticle.ws?article_id=2531 in section RuneScape Minigames. <br/> <Vectra> ** (KBASE): Description: Pest Control is only accessible to RuneScape Members . Please subscribe to get this feature. Please note this is a 'Safe' minigame. If you die during this minigame, you will keep your items. Introduction...
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@rsrule <number>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ RuneScape rule searcher.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (RSRULE): Number 1 - Offensive Language <br /> <Vectra> ** (RSRULE): You must not use any language which is offensive, racist or obscene.
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@cmb-est <attack> <strength> <defence> <hitpoints> <range> <prayer> <magic> [<summoning>]
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Combat estimated for input levels.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (CMB-EST): Level: 103.625 [F2P: 92.625] (Melee Based) ASDHRPM(SU): 74 86 65 75 73 45 67 89
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@mylist <skill> <items/monsters>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Shows information about the bot
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (MYLIST): Added prayer super-strength super-attack to mylist option for (*!*Vectra_01@*.dialup.ice.no) in the skill Herblore.
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@farmer <farmer>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Information about payment for each seed to farmer.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (FARMER PRICE): Plant: Curry Tree | Price: 5 Baskets Of Bananas | Obtained: Picked,Grown Or Bought From Other Players.
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@bts
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ RuneScape's behind the scenes for the month
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (BTS): Viewing the link for: Behind the Scenes - March <br /> <Vectra> ** (BTS): http://news.runescape.com/newsitem.ws?id=1112
+  ]]> 
+  </response>
+  </command>
+<command id="non-runescape">
+<command>
+<![CDATA[ !@halo3 <username>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Lookup halo3 user stats.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (HALO3): (JRBRUNO) Global Rank: Lieutenant, Grade 2 | Highest skill: 14 | Total EXP: 129 | Next rating: Skill 20/100 EXP or 200 EXP <br /> <Vectra> ** (HALO3): Total games: 499 | Matchmade games: 474 | Custom games: 12 | Campaign missions: 13 | Enemies KIA: 1,442 | Friendlies lost: 61 <br /> <Vectra> ** (HALO3): View all stats: http://www.bungie.net/stats/Halo3/CareerStats.aspx?player=jrbruno
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@rsplayer
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Wanna know how many plays runescape atm? This is the command!
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (PLAYERS): There are currently 200,642 people playing runescape.
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@clan <rsn>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Checks a rsn for clans.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (CLAN): Terror_nisse is in 2 clans: Norwegian, Norwegian 120s
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@potion <potion>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Lookup what you need to make a potion.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (POTION): Prayer Potion | Required Herblore Level: 38 | Herb: Ranarr Weed | Ingredient: Snape Grass | Effect: Restores Prayer by 7-31 Points
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@fairy <location>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Shows fairy teleport info.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (FAIRYRING): Combination for edgeville is dkr.
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@rsn <nick>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ If input nick have rsn it will tell you if he/she doesent have privacy enabled.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (RSN): Stored rsn for the host (*!*Xotick@*.support.SwiftIRC.net) and nick xotick is Big_Bill66.
+  ]]> 
+  </response>
+  </command>
+<command id="non-runescape">
+<command>
+<![CDATA[ !@spellcheck <word>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Bad speller? Check out your words using this command!
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (SPELLCHECK): The word "degfrghe" is misspelled. <br /> <Vectra> ** (SPELLCHECK): Suggestions: degree, degreed, degrees, degrade, dogfight, degraded, degrader, degrades, degrease, dogfights, degraders, degreased, degreases, dogfishes, degradedly
+  ]]> 
+  </response>
+  </command>
+<command id="fun">
+<command>
+<![CDATA[ !@funfact
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Funny random facts.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (RANDOM FACT): Mexicans consumed more Coca-Cola products than Americans, on average, in 2005. The average Mexican consumed 533 beverages during 2005, while the average American consumed 431.
+  ]]> 
+  </response>
+  </command>
+<command id="fun">
+<command>
+<![CDATA[ !@cyborg <name>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Wanna know what a word stands for? try this command(funny!)
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (CYBORG): J.O.A.C.I.M.: Journeying Operational Assassination and Ceaseless Infiltration Machine
+  ]]> 
+  </response>
+  </command>
+<command id="non-runescape">
+<command>
+<![CDATA[ !@[<eu|us>]armory <username> [<@realm>]
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Lookups a war of warcraft usernames stats.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (US ARMORY): Character: Vivex | Level: 70 Night Elf Rogue (20/41/0) | Guild: Severance | Realm: Kilrogg <br /> <Vectra> ** (US ARMORY): Health: 7294 | Honor Kills: 30175 | Armor: 2628 | 355 engineering
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@quest <questname>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Information and guide links for all quests.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (QUEST): Dragon Slayer (Free) | QP: 2 | Reward: 18,650 Strength XP, 18,650 Defence XP, The right to wear Rune platebody and Green dragonleather body <br /> <Vectra> ** (QUEST): Guides: http://www.tip.it/runescape/index.php?rs2quest_id=21 | http://runehq.com/RHQQuestsView.php?id=00146 | http://www.zybez.net/quests.php?id=13
+  ]]> 
+  </response>
+  </command>
+<command id="non-runescape">
+<command>
+<![CDATA[ !@weather [-d][-uk/-us/-ca] <location/zip code>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Weather lookup for desired destination.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (WEATHER): Weather for Oslo, Norway at Friday, March 21, 2008 10:25PM <br /> <Vectra> ** (WEATHER): Conditions: Mostly Clear | Temp: -5C | RealFeel: -12C | Wind: NNE at 19km/h | Humidity: 73% | Dew Point: -9 C | Pressure: 100 KPA | Visibility: 14km
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@qfc <quick find code>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Returns link for a qfc.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (QUICKFIND): Quickfindcode "38-39-977-56035626" returned link: http://forum.runescape.com/forums.ws?38,39,977,56035626
+  ]]> 
+  </response>
+  </command>
+<command id="runescape">
+<command>
+<![CDATA[ !@drop <monster>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Returns drops for specified monster.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (DROP): [1/1] [M] Abyssal demon | Top drops: Abyssal whip, Dragon spear, Rune battleaxe, Rune 2h sword, Rune spear, Dragon med helm, Rune chainbody, Rune kiteshield, Rune med helm, Rune sq shield, Dragonstone, Shield left half, Half of a key, Runite bar, Clue scroll (level-3), Abyssal head | Looking for more common drops? use the !cdrop command. (zybez.net)
+  ]]> 
+  </response>
+  </command>
+
+<command id="runescape">
+<command>
+<![CDATA[ !@rsworld <world>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Information about input world.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra> ** (RSWORLD): World: 68 (NO) | Players: 548 (27.4% capacity) | Type: Members | Activity: Clan Wars | Lootshare: No | Quick Chat: No | PvP: No | Link: http://world68.runescape.com/a2,m0,j0,o0
+  ]]> 
+  </response>
+  </command>
+<command id="non-runescape">
+<command>
+<![CDATA[ !@urban <word>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Urban dictionary on a word given.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra>- ** (URBAN): "lmao" | Laughing My Ass Off. Used online only.
+  ]]> 
+  </response>
+  </command>
+  <command id="runescape">
+<command>
+<![CDATA[ !@coinshare #<players> <item>
+  ]]> 
+  </command>
+<desc>
+<![CDATA[ Give you coinshare rewards.
+  ]]> 
+  </desc>
+<response>
+<![CDATA[ <Vectra>- ** (COINSHARE):[M] Abyssal whip shared on 3 players will give you: 500,000 gp each [Full price: 1.5m gp]
+  ]]> 
+  </response>
+  </command>
+</commandlist>
+</vectra>

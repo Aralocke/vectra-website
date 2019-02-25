@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vectra>
+<botInformation>
+<name version="1.2.2" release="15-12-07">Vectra</name> 
+</botInformation>
+<commandlist>
+<command id="general">
+<command><![CDATA[!@info]]></command>
+<desc><![CDATA[Shows information about the bot]]></desc>
+<response><![CDATA[-Vectra- ** (BOTINFO): Channels: 24 | | Server: darklite.be.eu.SwiftIRC.net | Commands used: 72962 | Home channel: #vectra | Website: http://-Vectra-bot.org]]></response>
+</command>
+<command id="runescape">
+<command><![CDATA[!@stats <RSN>]]></command>
+<desc><![CDATA[This command gives stats of the given RSN]]></desc>
+<response><![CDATA[-Vectra- ** (FOR_SOOTH): Overall 1,494 | Att 81 | Def 78 | Str 80 | HP 82 | Range 77 | Pray 68 | Magic 74 | Cooking 68 | Woodcut 81 | Fletch 98 | Fishing 68 | Firemaking 51 | Crafting 60 | Smithing 55 | Mining 64 | Herblore 46 | Agility 50 | Thieving 53 | Slayer 57 | Runecraft 52 | Hunter 62 | Construction 54]]></response></command>
+<command id="runescape">
+<command><![CDATA[!@stats -p <RSN>]]></command>
+<desc><![CDATA[This command gives stats and percent to 99 for the given RSN]]></desc>
+<response><![CDATA[-Vectra- ** (FOR_SOOTH): Att (17.7%) | Def (12.7%) | Str (16.3%) | HP (18.7%) | Range (11.8%) | Pray (4.7%) | Magic (9%) | Cooking (4.9%) | Woodcut (18.2%) -Vectra- ** (FOR_SOOTH): Fletch (97.7%) | Fishing (4.9%) | Firemaking (0.9%) | Crafting (2.3%) | Smithing (1.4%) | Mining (3.4%) -Vectra- ** (FOR_SOOTH): Herblore (0.5%) | Agility (0.8%) | Thieving (1.1%) | Slayer (1.6%) | Runecraft (1%) | Hunter (2.6%) | Construction (1.2%)]]></response>
+</command>
+<command id="runescape">
+<command><![CDATA[!@Stats -e <RSN>]]></command>
+<desc><![CDATA[This command gives EXP for all stats for the given RSN]]></desc>
+<response><![CDATA[-Vectra- ** (FOR_SOOTH): Overall 30,389,676 | Att 2,312,419 | Def 1,653,369 | Str 2,118,401 | HP 2,440,867 | Range 1,534,396 | Pray 611,871 | Magic 1,175,350 | Cooking 640,197 | Woodcut 2,369,992 | Fletch 12,736,427 | Fishing 635,625 | Firemaking 112,410 | Crafting 293,370 | Smithing 176,471 | Mining 437,767 | Herblore 68,232 -Vectra- ** (FOR_SOOTH): Agility 104,110 | Thieving 140,106 | Slayer 210,723 | Runecraft 124,165 | Hunter 334,277 | Construction 151,939]]></response>
+</command>
+<command id="runescape">
+<command><![CDATA[!@stats -n <RSN>]]></command>
+<desc><![CDATA[Gives EXP to next level in ALL skills at once.]]></desc>
+<response><![CDATA[-Vectra- ** (FOR_SOOTH): Herblore 6,895 | Smithing 7,569 | Agility 7,835 | Crafting 8,918 | Thieving 10,766 | Firemaking 11,250 | Mining 11,661 | Runecraft 12,429 | Slayer 13,743 | Construction 14,697 | Cooking 27,854 | Fishing 32,426 | Hunter 34,322 | Magic 35,071 | Woodcut 51,095 -Vectra- ** (FOR_SOOTH): Pray 56,180 | Str 74,417 | Range 94,804 | Att 108,668 | Def 145,439 | HP 232,247 | Fletch 298,004]]></response>
+</command>
+<command id="runescape">/
+<command><![CDATA[!@stats -r <RSN>]]></command>
+<desc><![CDATA[Gives RANK for all stats for the given RSN]]></desc>
+<response><![CDATA[-Vectra- ** (FOR_SOOTH): Overall 147,638 | Att 156,135 | Def 161,688 | Str 263,481 | HP 189,588 | Range 149,521 | Pray 77,665 | Magic 246,081 | Cooking 447,904 | Woodcut 152,180 | Fletch 33,403 | Fishing 373,590 | Firemaking 781,390 | Crafting 261,074 | Smithing 415,606 | Mining 497,194 | Herblore 271,684 -Vectra- ** (FOR_SOOTH): Agility 379,599 | Thieving 365,778 | Slayer 174,871 | Runecraft 172,559 | Hunter 86,748 | Construction 90,342]]></response>
+  </command>
+ <command id="runescape">
+ <command><![CDATA[!@stats >LVL RSN  (Ex. 50)]]></command>
+ <desc><![CDATA[Gives all stats OVER specified level for RSN]]></desc>
+ <response><![CDATA[-Vectra- ** (FOR_SOOTH): Overall 1494 | Att 81 | Def 78 | Str 80 | HP 82 | Range 77 | Pray 68 | Magic 74 | Cooking 68 | Woodcut 81 | Fletch 98 | Fishing 68 | Firemaking 51 | Crafting 60 | Smithing 55 | Mining 64 | Thieving 53 | Slayer 57 | Runecraft 52 | Hunter 62 | Construction 54]]></response>
+  </command>
+ <command id="runescape">
+ <command><![CDATA[!@stats <LVL RSN]]></command>
+ <desc><![CDATA[Gives all stats UNDER specified level for RSN]]></desc>
+ <response><![CDATA[-Vectra- ** (FOR_SOOTH): Herblore 46 | Farming 39 | Summoning 41]]></response>
+  </command>
+ <command id="runescape">
+ <command><![CDATA[!@stats =LVL RSN  (Ex. 81)]]></command>
+ <desc><![CDATA[Gives the exact skills for the given RSN]]></desc>
+ <response><![CDATA[-Vectra- ** (FOR_SOOTH): Att 81 | Woodcut 81]]></response>
+  </command>
+ <command id="runescape">
+ <command><![CDATA[!@<SKILL> RSN]]></command>
+ <desc><![CDATA[Search for the specified skill]]></desc>
+ <response><![CDATA[-Vectra- ** (FOR_SOOTH): (Fishing) lvl: 68 | exp: 635,625 (4.88% of 99) | rank: 373,597 | exp to level 69: 32,426 (48.55% to 69) -Vectra- [For 69 Fishing]: Lobster 360 Swordfish 324 Monkfish 270 Shark 295 Manta Ray 705 Shrimp 3,243 Karambwanji 6,485]]></response>
+  </command>
+ <command id="runescape">
+ <command><![CDATA[!@<SKILL> #LVL RSN (Ex. !fishing #80)]]></command>
+ <desc><![CDATA[Search for the specified skill to certain level]]></desc>
+ <response><![CDATA[-Vectra- ** (FOR_SOOTH): (Fishing) lvl: 68 | exp: 635,625 (4.88% of 99) | rank: 373,596 | exp to level 80: 1,350,443 (2.22% to goal 80) -Vectra- [For 80 Fishing]: Lobster 15,005 Swordfish 13,504 Monkfish 11,254 Shark 12,277 Manta Ray 29,357 Shrimp 135,044 Karambwanji 270,089]]></response>
+  </command>
+ <command id="runescape">
+ <command><![CDATA[!@<SKILL> @ITEM RSN (Ex. !fishing @lobster)]]></command>
+ <desc><![CDATA[Search for the specified skill with a specified item]]></desc>
+ <response><![CDATA[-Vectra- ** (FOR_SOOTH): (Fishing) lvl: 68 | exp: 635,625 (4.88% of 99) | rank: 373,596 | exp to level 69: 32,426 (48.55% to 69) -Vectra- [For 69 Fishing]: lobster 360]]></response>
+ </command>
+ <command id="runescape">
+ <command><![CDATA[!@<SKILL> #LVL @ITEM RSN (Ex. !fishing #80 @lobster)]]> 
+  </command>
+ <desc><![CDATA[Search for the specified skill to a certain level with a specified item]]></desc>
+ <response><![CDATA[-Vectra- ** (FOR_SOOTH): (Fishing) lvl: 68 | exp: 635,625 (4.88% of 99) | rank: 373,598 | exp to level 80: 1,350,443 (2.22% to goal 80) -Vectra- [For 80 Fishing]: Lobster 15,005]]></response>
+  </command>
+ <command id="runescape">
+ <command><![CDATA[!@<SKILL>-plan AMOUNT ITEM (Ex. !fish-plan 1k lobster)]]></command>
+ <desc><![CDATA[See how much exp the specified amount of that item will give you]]></desc>
+ <response><![CDATA[UNDONE]]></response>
+  </command>
+ <command id="runescape">
+ <command><![CDATA[!@duel RSN]]></command>
+ <desc><![CDATA[Shows Rank and Score]]></desc>
+ <response><![CDATA[-Vectra- ** (FOR_SOOTH): (Duel Tournament) Rank: 1,132 | Score: 1,144]]></response>
+  </command>
+ <command id="runescape">
+ <command><![CDATA[!@cmb]]></command>
+  <desc><![CDATA[Views the combat and how many levels needed until next combat level]]></desc>
+ <response><![CDATA[-Vectra- ** (COMBAT): for_sooth is level 100.95 [F2P: 100.825] (Melee Based) ASDHRPM(SU) 81 80 78 82 77 68 74 1 -Vectra- ** (COMBAT): For 101: Att/str: 1 Def/Hp: 1 Prayer/Summoning: 1]]></response>
+  </command>
+ <command id="general">
+ <command><![CDATA[!@setname/defname RSN]]></command>
+ <desc><![CDATA[Sets a default Runescape name]]></desc>
+ <response><![CDATA[-Vectra- ** (DEFAULT NAME): Your RSN has been set to For_Sooth with the host !*Sooth@*.*******.****.****.ca ]]> </response>
+  </command>
+ <command id="other">
+ <command><![CDATA[!@price # ITEM, # ITEM  ( Ex. !price 100 blood rune, 50 soul rune, amount optional)]]></command>
+ <desc><![CDATA[Looks up the street price for items at Runescape, directly from zybez.net ]]> 
+  </desc>
+ <response><![CDATA[-Vectra- ** (PRICE): [M] Blood rune 30,500gp - 33,800gp | [M] Soul rune 16,500gp - 18,500gp | Total: 47,000gp (zybez.net)]]></response>
+  </command>
+ <command id="runescape">
+ <command><![CDATA[!@rank SKILL RANKNUMBER]]></command>
+ <desc><![CDATA[Shows the Runescape user on the choosen rank]]></desc>
+ <response><![CDATA[-Vectra- ** (FLETCHING): Rank: 33448 | Name: For Sooth | Exp: 12,739,577 | Level: 98]]></response>
+  </command>
+ <command id="runescape">
+ <command><![CDATA[!@rsrule #]]></command>
+ <desc><![CDATA[Views the choosen runescape rule, from 1 to 15
+]]></desc>
+<response><![CDATA[-Vectra- ** (RSRULE): Number 1 - Offensive Language -Vectra- ** (RSRULE): You must not use any language which is offensive racist or obscene.]]></response>
+  </command>
+ <command id="runescape">
+ <command><![CDATA[!@compare skill nick1 nick2]]></command>
+<desc><![CDATA[Compares the users in the choosen skill]]></desc>
+ <response><![CDATA[-Vectra- ** (COMPARE): Zezima [99] [120] is higher than For_Sooth [98] in Fletching by 1 levels and 91,885,179 exp ]]></response>
+  </command>
+ <command id="runescape">
+ <command><![CDATA[!@xp EXP]]></command>
+<desc><![CDATA[Returns level for specified amount of xp]]></desc>
+ <response><![CDATA[-Vectra- ** (EXP-LVL): The lvl for 98 exp is 2.]]></response>
+  </command>
+ <command id="runescape">
+ <command><![CDATA[!@lvl LEVEL]]></command>
+<desc><![CDATA[Returns exp need for specified level]]></desc>
+ <response><![CDATA[-Vectra- ** (LVL-EXP): The exp for level 98 is 11,805,606 exp.]]></response>
+  </command>
+ <command id="runescape">
+ <command><![CDATA[!@monster NPC]]></command>
+<desc><![CDATA[Returns information about specified monster]]></desc>
+ <response><![CDATA[-Vectra- ** (NPC): Name: Blue Dragon | Level: 111 | Hp: 105 | Race: Dragon | Lair: Members Dungeon south of Taverly. (Tip.it) -Vectra- ** (NPC): Aggressive: Yes | Retreats: No | Quest: No | Member: Yes | Poison: No]]></response>
+  </command>
+ <command id="runescape">
+ <command><![CDATA[!@rsnews]]></command>
+<desc><![CDATA[Returns news update on Runescape Homepage]]></desc>
+<response><![CDATA[-Vectra- ** (RSNEWS): Date: 05-Feb-2008 Title: Audio Week and Improved Edgeville Dungeon -Vectra- ** (RSNEWS): This week, various improvements and tweaks have been made to our instruments and spot effects, alongside the introduction of a brand new music system. To celebrate, we have given you the opportunity to unlock an awesome Air Guitar emote! Which is less than useful when fending off creatures from the improved Edgeville Dungeon... -Vectra- ** (RSNEWS): Read more at: http://news.runescape.com/newsitem.ws?id=1086]]></response>
+  </command>
+ <command id="runescape">
+ <command><![CDATA[!@players/online]]></command>
+<desc><![CDATA[Returns how many players are on Runescape]]></desc>
+ <response><![CDATA[-Vectra- ** (RSPLAYERS): There are currently 147,302 people playing Runescape!]]></response>
+  </command>
+ <command id="other">
+ <command><![CDATA[!@grats LVL SKILL]]></command>
+<desc><![CDATA[Congrats you when you get a level up in any runescape skill. Works with combat and overall aswell.]]></desc>
+ <response><![CDATA[* Vectra <GRATS-LOGO> :D -< Congratulations on level 98 Fletching [Sooth]!! >- <GRATS-LOGO>]]></response>
+  </command>
+ <command id="other">
+ <command><![CDATA[!@clan RSN]]></command>
+<desc><![CDATA[Returns up to 3 clans]]></desc>
+ <response><![CDATA[-Vectra- ** (CLAN): Mc90123 is in 2 clans: Guardians Of Fate, Guild of Elite Skillers (Type !clan -a RSN for links.) (Runehead.com)]]></response>
+  </command>
+ <command id="runescape">
+ <command><![CDATA[!@bts]]></command>
+<desc><![CDATA[Gives you the behind the scenes link for this month]]></desc>
+ <response><![CDATA[-Vectra- ** (BTS): Viewing the link for: Behind the Scenes - February -Vectra- ** (BTS): http://news.runescape.com/newsitem.ws?id=1087 ]]></response>
+  </command>
+ <command id="channel">
+ <command><![CDATA[!@cmbcheck on/off]]></command>
+<desc><![CDATA[Put the combat checker on/off - Checks the combat stats when someone joins your channel. No kickban at this point.]]></desc>
+ <response><![CDATA[-<Vectra>- ** (CMB CHECKER): The combat checker has been enabled for #vectra. -<Vectra>- ** (CMB CHECKER): The combat checker has been disabled for #vectra.]]></response>
+  </command>
+ <command id="channel">
+ <command><![CDATA[!@setreq cmblvl strengthlvl attacklvl att+str]]></command>
+<desc><![CDATA[Enables requirment kickbans, if someone join your channel and this is enabled, they get a 1 min timeban. NOTE: The combat checker got to be turned ON for this to work.  [Example]: !setreq 100 99 99 189]]></desc>
+ <response><![CDATA[-Vectra- ** (SET REQS): The requirements for #vectra has been set to: 100 Combat, 99 Strength, 99 Attack and 189 Att+Str]]></response>
+</command>
+ <command id="channel">
+ <command><![CDATA[!@setreq off]]></command>
+<desc><![CDATA[Turns the requirment kickban off, but the combat check is still on.]]></desc>
+ <response><![CDATA[-Vectra- ** (SET REQS): All requirement has been deleted]]></response>
+  </command>
+ <command id="channel">
+ <command><![CDATA[!@setreq voice on]]></command>
+<desc><![CDATA[Voices all that meets the requirements on join.]]></desc>
+ <response><![CDATA[-Vectra- ** (SET REQS): I will now voice everyone that meets the requirements]]></response>
+  </command>
+ <command id="channel">
+ <command><![CDATA[!@setreq pm nick(s)]]></command>
+<desc><![CDATA[Sets the pm nicks for your channe. Type !pm and the bot will say Message nick in game for voice. [Example]: !setreq Pm For_Sooth]]></desc>
+<response><![CDATA[-Vectra- ** (SET REQS): You have set the pm nick(s) to For_Sooth]]></response>
+  </command>
+ <command id="pestcontrol">
+ <command><![CDATA[!@setpcw WORLD]]></command>
+<desc><![CDATA[Sets a PC world for the channel]]></desc>
+  <response><![CDATA[<Vectra> ** (PEST CONTROL): A new world for #vectra has been set! Type !pcw or !pcworld to view the world.]]></response>
+  </command>
+ <command id="pestcontrol">
+ <command><![CDATA[!@pcw/world]]></command>
+<desc><![CDATA[Checks the PC world for the channel]]></desc>
+ <response><![CDATA[-Vectra- ** (PEST CONTROL): The PC world for #vectra is 99, set by [Sooth], 49secs ago.]]></response>
+  </command>
+ <command id="pestcontrol">
+ <command><![CDATA[!@delpcw]]></command>
+<desc><![CDATA[Deletes the PC world for the channel]]></desc>
+ <response><![CDATA[-Vectra- ** (DEL WORLD): The PC World for #cvectra has been deleted!]]></response>
+  </command>
+ <command id="channel">
+ <command><![CDATA[!@setevent event]]></command>
+<desc><![CDATA[Set a channel event]]></desc>
+ <response><![CDATA[-Vectra- ** (EVENT): The event for #vectra has been set to: King Black Dragon today!!! meet at edge]]></response>
+  </command>
+ <command id="channel">
+ <command><![CDATA[!@event]]></command>
+<desc><![CDATA[Checks the channel event]]></desc>
+ <response><![CDATA[-Vectra- ** (EVENT): Current event for #clan-chaos is: King Black Dragon today!!! meet at edge. Set by [Sooth] on 05/02/2008.]]></response>
+  </command>
+ <command id="channel">
+ <command><![CDATA[!@delevent]]></command>
+<desc><![CDATA[Deletes the event]]></desc>
+ <response><![CDATA[-Vectra- ** (EVENT): The event for #clan-chaos has been deleted!]]></response>
+  </command>
+ <command id="channel">
+ <command><![CDATA[!@setpits  world]]></command>
+<desc><![CDATA[Sets a Pits world for your channel]]></desc>
+ <response><![CDATA[ <Vectra> ** (FIGHT PITS): A new world for #vectra has been set! Type !pw or !pits to view the world.]]></response>
+  </command>
+ <command id="channel">
+ <command><![CDATA[!@pw/pitsworld]]></command>
+<desc><![CDATA[Checks the Pits world for your channel]]></desc>
+ <response><![CDATA[-Vectra- ** (FIGHT PITS): The Fight Pits World for #vectra is 99, set by [Sooth], 30secs ago.]]></response>
+  </command>
+ <command id="channel">
+ <command><![CDATA[!@delpw/delpits]]></command>
+<desc><![CDATA[Deletes the Pits world for your channel]]></desc>
+ <response>
+ <![CDATA[-Vectra- ** (DEL PITS): The Fight Pits World for #vectra has been deleted!]]></response>
+  </command>
+ <command id="channel">
+ <command><![CDATA[!@tb nick time reason ]]></command>
+<desc><![CDATA[Timebans a user from your channel. Replace time with how many minutes you want the ban to last.]]></desc>
+ <response><![CDATA[ HAS TO BE FIXED]]></response>
+  </command>
+ <command id="channel">
+ <command><![CDATA[!@autov on/off]]></command>
+<desc><![CDATA[Enables/Disables autovoice for channel]]></desc>
+ <response><![CDATA[ <Vectra> ** (AUTOVOICE): Auto Voice for #Vectra has been enabled. ** (AUTOVOICE): Auto Voice for #Vectra has been disabled.]]></response>
+  </command>
+ <command id="channel">
+ <command><![CDATA[!@setsite]]></command>
+<desc><![CDATA[description]]></desc>
+ <response><![CDATA[-Vectra- ** (WEBSITE): The website for #Vectra has been set to: www.-Vectra-bot.org]]></response>
+  </command>
+ <command id="channel">
+ <command><![CDATA[!@site]]></command>
+<desc><![CDATA[Views the URL for the channel]]></desc>
+ <response><![CDATA[-Vectra- ** (WEBSITE): The channel site for #Vectra is: www.-Vectra-bot.org]]></response>
+  </command>
+ <command id="channel">
+ <command><![CDATA[!@delsite]]></command>
+<desc><![CDATA[Deletes the URL for your channel]]></desc>
+ <response><![CDATA[-Vectra- ** (WEBSITE): The channel site for #Vectra has been deleted.]]></response>
+  </command>
+ <command id="fun">
+ <command><![CDATA[!@urban word]]></command>
+<desc><![CDATA[Shows the urban definition for a word]]></desc>
+ <response><![CDATA[-Vectra- ** (URBAN): Defenition for the word "Runescape" is: this game reminds me of people playing snkae on cell phones. once youve played it and you get bored later, its the first thing you think of doing. you know its a waste of time but you cant stop. i advise you to NEVER play this unless you want it to consume your soul... i wish i hadnt gotten into it... -Vectra- ** (URBAN): Example: runescape has a better chance of taking over the world than hitler had...]]></response>
+  </command>
+ <command id="fun">
+ <command><![CDATA[!@lovemeter nick1 nick2]]></command>
+<desc><![CDATA[calculates the love between the two people]]></desc>
+ <response><![CDATA[ ** (LOVEMETER): Love percent between OddAndre and Xotick is 99%.]]></response>
+  </command>
+  </commandlist>
+ <newslist>
+ <news date="28-01-2008" by="V1" id="96">
+ <title><![CDATA[TITLE ]]></title>
+ <intro><![CDATA[intro ]]></intro>
+<desc><![CDATA[blabla]]></desc>
+  </news>
+  </newslist>
+ <stafflist>
+ <staff>
+  <name id="9" rank="web">V1</name> 
+  </staff>
+ <staff>
+  <name id="1" rank="owner">Terror Nisse</name> 
+  </staff>
+  </stafflist>
+  </vectra>
